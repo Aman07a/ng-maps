@@ -1,1 +1,1 @@
-console.log('hi there');
+import { Faker as faker } from "@faker-js/faker";
