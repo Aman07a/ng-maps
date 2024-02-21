@@ -1,4 +1,4 @@
-import { Faker as faker } from '@faker-js/faker';
+const faker = require('faker');
 
 class User {
   name: String;
@@ -7,5 +7,11 @@ class User {
     lng: number;
   };
 
-  constructor() {}
+  constructor() {
+    this.name = faker.name.firstName();
+    this.location = {
+      lat: parseFloat(faker.address.latitude()),
+      lng: parseFloat(faker.address.longitude()),
+    };
+  }
 }
