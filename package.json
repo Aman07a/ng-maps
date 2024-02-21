@@ -9,8 +9,8 @@
   "keywords": [],
   "author": "Aman07a",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@faker-js/faker": "^8.4.1",
-    "faker": "^6.6.6"
+    "buffer": "^6.0.3"
   }
 }
