@@ -2,7 +2,7 @@
   "name": "maps",
   "version": "1.0.0",
   "description": "The Modern Angular Bootcamp",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "start": "npx parcel index.html"
   },
