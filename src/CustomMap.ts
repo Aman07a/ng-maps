@@ -24,7 +24,7 @@ export class CustomMap {
     );
   }
 
-  addUserMarker(mappable: Mappable): void {
+  addMarker(mappable: Mappable): void {
     new google.maps.Marker({
       map: this.googleMap,
       position: {
